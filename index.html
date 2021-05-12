@@ -1,0 +1,771 @@
+
+<!DOCTYPE html>
+<html class="no-js"> 
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Travel.com </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/superfish.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Date Picker -->
+	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+	<!-- CS Select -->
+	<link rel="stylesheet" href="css/cs-select.css">
+	<link rel="stylesheet" href="css/cs-skin-border.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+
+		<header id="fh5co-header-section" class="sticky-banner">
+			<div class="container">
+				<div class="nav-header">
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+					<h1 id="fh5co-logo"><a href="index.html"><i class="icon-airplane"></i>Travel</a></h1>
+					<!-- START #fh5co-menu-wrap -->
+					<nav id="fh5co-menu-wrap" role="navigation">
+						<ul class="sf-menu" id="fh5co-primary-menu">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li>
+								<a href="index.html" class="fh5co-sub-ddown">Vacations</a>
+								<ul class="fh5co-sub-menu">
+									<li><a href="#">Family</a></li>
+									<li><a href="#">Solo</a></li>
+									<li><a href="#">Couple</a></li>
+									<li><a href="#">Friends</a></li>
+									<li><a href="#">Colleague</a></li>
+								</ul>
+							</li>
+							<li><a href="https://www.goindigo.in/" target="_blank">Flights</a></li>
+							<li><a href="https://www.trivago.in/" target="_blank">Hotel</a></li>
+							<li><a href="https://www.zoomcar.com/guwahati/" target="_blank">Car</a></li>
+							<li><a href="https://www.purvidiscovery.com/blogs" target="_blank">Blog</a></li>
+							<li><a href="index.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<!-- end:header-top -->
+	
+		<div class="fh5co-hero">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
+				<div class="desc">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-5 col-md-5">
+								<div class="tabulation animate-box">
+
+								  <!-- Nav tabs -->
+								   <ul class="nav nav-tabs" role="tablist">
+								      <li role="presentation" class="active">
+								      	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Flights</a>
+								      </li>
+								   </ul>
+
+								   <!-- Tab panes -->
+									<div class="tab-content">
+									 <div role="tabpanel" class="tab-pane active" id="flights">
+										<div class="row">
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">From:</label>
+													<input type="text" class="form-control" id="from-place" placeholder="Your location"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">To:</label>
+													<input type="text" class="form-control" id="to-place" placeholder="Destination"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-start">Check In:</label>
+													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-end">Check Out:</label>
+													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Class:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>Economy</option>
+														<option value="economy">Economy</option>
+														<option value="first">First</option>
+														<option value="business">Business</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Adult:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Children:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xs-12">
+												<a href="https://www.goindigo.in/" target="_blank">   <input type="submit" class="btn btn-primary btn-block" value="Search Flight"> </a>
+											</div>
+										</div>
+									 </div>
+
+									 <div role="tabpanel" class="tab-pane" id="hotels">
+									 	<div class="row">
+											<div class="col-xxs-12 col-xs-12 mt">
+												<div class="input-field">
+													<label for="from">City:</label>
+													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-start">Return:</label>
+													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-end">Check Out:</label>
+													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Rooms:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="economy">1</option>
+														<option value="first">2</option>
+														<option value="business">3</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Adult:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Children:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xs-12">
+												<input type="submit" class="btn btn-primary btn-block" value="Search Hotel">
+											</div>
+										</div>
+									 </div>
+
+									 <div role="tabpanel" class="tab-pane" id="packages">
+									 	<div class="row">
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">City:</label>
+													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<label for="from">Destination:</label>
+													<input type="text" class="form-control" id="to-place" placeholder="Tokyo, Japan"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-start">Departs:</label>
+													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-end">Return:</label>
+													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
+												</div>
+											</div>
+											<div class="col-sm-12 mt">
+												<section>
+													<label for="class">Rooms:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="economy">1</option>
+														<option value="first">2</option>
+														<option value="business">3</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Adult:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xxs-12 col-xs-6 mt">
+												<section>
+													<label for="class">Children:</label>
+													<select class="cs-select cs-skin-border">
+														<option value="" disabled selected>1</option>
+														<option value="1">1</option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+													</select>
+												</section>
+											</div>
+											<div class="col-xs-12">
+												<input type="submit" class="btn btn-primary btn-block" value="Search Packages">
+											</div>
+										</div>
+									 </div>
+									</div>
+
+								</div>
+							</div>
+							<div class="desc2 animate-box">
+								<div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
+									<p><a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name"></a></p>
+									<h2>We'll make it happen</h2>
+									<h3> Your Perfect North-East India Experience Starts Here!</h3>
+									<!-- <p><a class="btn btn-primary btn-lg" href="#">Get Started</a></p> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
+		<div id="fh5co-tours" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3>Hot Tours</h3>
+						<p>The journey of a thousand miles begins with a single step. </p>
+						<p>Life is short and the world is wide</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/place-1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<h3>Shillong with Cherrapunjee and Mawlynnong</h3>
+								<span>5 nights + Flight 5*Hotel</span>
+								<span class="price">₹55,000</span>
+								<a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/place-2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<h3>Home of Darjeeling Tea Packages</h3>
+								<span>6 nights + Flight 5*Hotel</span>
+								<span class="price">₹71,000</span>
+								<a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 fh5co-tours animate-box" data-animate-effect="fadeIn">
+						<div href="#"><img src="images/place-3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<div class="desc">
+								<span></span>
+								<h3>Unexplored Arunachal</h3>
+								<span>5 nights + Flight 4*Hotel</span>
+								<span class="price">₹41,000</span>
+								<a class="btn btn-primary btn-outline" href="#">Book Now <i class="icon-arrow-right22"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center animate-box">
+						<p><a class="btn btn-primary btn-outline btn-lg" href="#">See All Offers <i class="icon-arrow-right22"></i></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 animate-box">
+
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-hotairballoon"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Family Travel</h3>
+								<p>Travelling with family reminds you to appreciate the little things.</p>
+								<p><a href="https://www.trafalgar.com/real-word/benefits-of-travelling-with-family/" target="_blank">Learn More</a></p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-4 animate-box">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Travel Plans</h3>
+								<p>The Importance of Planning When Travelling</p>
+								<p><a href="https://pikalily.com/importance-planning-travelling/" target="_blank">Learn More</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 animate-box">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-wallet"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Budget Travel</h3>
+								<p>Traveling on a budget keeps our feet firmly planted on the ground.</p>
+								<p><a href="https://www.bootsnall.com/articles/why-i-choose-budget-travel.html" target="_blank">Learn More</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 animate-box">
+
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-wine"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Business Travel</h3>
+								<p>One of the main reasons why business travel is important is the personal interaction that builds good foundations.</p>
+								<p><a href="https://www.gdg.travel/blog/importance-of-business-travel/#:~:text=One%20of%20the%20main%20reasons,almost%20a%20sense%20of%20unity." target="_blank">Learn More</a></p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-4 animate-box">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-genius"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Solo Travel</h3>
+								<p>Solo travel gives you a chance to listen to your gut and control what direction you want to head</p>
+								<p><a href="https://www.nationalgeographic.com/travel/article/six-things-solo-alone-travel-teaches-you" target="_blank">Learn More</a></p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 animate-box">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-chat"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Explorer</h3>
+								<p>Exploration is the driving force behind humankind.</p>
+								<p><a href="https://vacayholics.com/what-is-importance-of-traveling" target="_blank">Learn More</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		<div id="fh5co-destination">
+			<div class="tour-fluid">
+				<div class="row">
+					<div class="col-md-12">
+						<ul id="fh5co-destination-list" class="animate-box">
+							<li class="one-forth text-center" style="background-image: url(images/place-1.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Assam</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-2.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Darjeeling</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-Itanagar.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Itanagar</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-Gangtok.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Gangtok</h2>
+									</div>
+								</a>
+							</li>
+
+							<li class="one-forth text-center" style="background-image: url(images/place-Kazirange.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Kaziranga</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-half text-center">
+								<div class="title-bg">
+									<div class="case-studies-summary">
+										<h2>Most Popular Destinations</h2>
+										<span><a href="#">View All Destinations</a></span>
+									</div>
+								</div>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-Siliguri.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Siliguri</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-Guwahati.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Guwahati</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-Ziro.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Ziro</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-forth text-center" style="background-image: url(images/place-Gorichen.jpg); ">
+								<a href="#">
+									<div class="case-studies-summary">
+										<h2>Gori-chen</h2>
+									</div>
+								</a>
+							</li>
+						</li>
+						<li class="one-forth text-center" style="background-image: url(images/Manipur.jpg); ">
+							<a href="#">
+								<div class="case-studies-summary">
+									<h2>Manipur</h2>
+								</div>
+							</a>
+						</li>
+						</ul>		
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-blog-section" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
+						<h3>Recent From Blog</h3>
+						<p>The world is full of magic things, patiently waiting for our senses to grow sharper.It is quite impossible to understand the world of travel & tourism</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row row-bottom-padded-md">
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="fh5co-blog animate-box">
+							<a href="#"><img class="img-responsive" src="images/place-1.jpg" alt=""></a>
+							<div class="blog-text">
+								<div class="prod-title">
+									<h3><a href="#">Top 10 Festivals of North East India</a></h3>
+									<span class="posted_by">11 Jan, 2021</span>
+									<span class="comment"><a href="">121<i class="icon-bubble2"></i></a></span>
+									<p>Festivals in North East India honor the region's diverse history. The majority of the festivals in this....... </p>
+									<p><a href="https://www.purvidiscovery.com/blog/top-10-festivals-of-north-east-india" target="_blank">Learn More...</a></p>
+								</div>
+							</div> 
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="fh5co-blog animate-box">
+							<a href="#"><img class="img-responsive" src="images/place-2.jpg" alt=""></a>
+							<div class="blog-text">
+								<div class="prod-title">
+									<h3><a href="#">Why You Should Visit North East India</a></h3>
+									<span class="posted_by">20 Dec 2020</span>
+									<span class="comment"><a href="">190<i class="icon-bubble2"></i></a></span>
+									<p>Assam, Arunachal Pradesh, Meghalaya, Manipur, Mizoram, Nagaland and Tripura are the original seven sisters.....</p>
+									<p><a href="https://www.purvidiscovery.com/blog/why-you-should-visit-north-east-india" target="_blank">Learn More...</a></p>
+								</div>
+							</div> 
+						</div>
+					</div>
+					<div class="clearfix visible-sm-block"></div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="fh5co-blog animate-box">
+							<a href="#"><img class="img-responsive" src="images/place-3.jpg" alt=""></a>
+							<div class="blog-text">
+								<div class="prod-title">
+									<h3><a href="#">Places To Visit In Sikkim</a></h3>
+									<span class="posted_by">17 Feb 2021</span>
+									<span class="comment"><a href="">215<i class="icon-bubble2"></i></a></span>
+									<p>Sikkim is called the Winter Wonderland because it is breathtakingly beautiful from December to February. Indeed it is spine-chilling cold.....</p>
+									<p><a href="https://www.purvidiscovery.com/blog/places-to-visit-in-sikkim" target="_blank">Learn More...</a></p>
+								</div>
+							</div> 
+						</div>
+					</div>
+					<div class="clearfix visible-md-block"></div>
+				</div>
+
+				<div class="col-md-12 text-center animate-box">
+					<p><a class="btn btn-primary btn-outline btn-lg" href="#">See All Post <i class="icon-arrow-right22"></i></a></p>
+				</div>
+
+			</div>
+		</div>
+		<!-- fh5co-blog-section -->
+		<div id="fh5co-testimonial" style="background-image:url(images/img_bg_1.jpg);">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Happy Clients</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box-testimony animate-box">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+							<p>&ldquo;Thank you so much for your help in organising our India trip. We had an absolutely fantastic time, helped by your companies amazing organisation and all your great staff.We saw Rhinoceros, Hindu festivals, Kaziranga, Darjeeling tea plantations and all the sites of South North-East India.Hope the above is of help to you.&rdquo;</p>
+						</blockquote>
+						<p class="author">Tejas shah<a href="http://freehtml5.co/" target="_blank"></a> <span class="subtext">Mumbair</span></p>
+					</div>
+					
+					
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony animate-box">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+							<p>&ldquo;Thank you very much for all your assistance for my safe trip to Manipur. Your driver Mahesh was excellent. Will contact you again for my future trips.Thanks again.
+								&rdquo;</p>
+						</blockquote>
+						<p class="author">P Annadorai, <a href="http://freehtml5.co/" target="_blank"></a> <span class="subtext">Singapore</span></p>
+					</div>
+					
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony animate-box">
+						<blockquote>
+							<span class="quote"><span><i class="icon-quotes-right"></i></span></span>
+							<p>&ldquo;We have had a great trip in North-East India, thank you for your help. We also would like to state that Madeu Swamy is a very good driver, we felt save and were happy to have him with us. Enclosed a photo which I promised to send to Madeu.&rdquo;</p>
+						</blockquote>
+						<p class="author">Prashant Bhardwaj <a href="#"></a> <span class="subtext">Bangalore</span></p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+		<footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>About Travel</h3>
+							<p>Travel has been focused on bringing our customers the best in esteem and quality travel game plans. We are enthusiastic about movement and sharing the world’s marvels on the relaxation travel side.</p>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>Top Flights Routes</h3>
+							<ul>
+								<li><a href="#">Imphal International flights</a></li>
+								<li><a href="#">Silchar flights</a></li>
+								<li><a href="#">Dibrugarh flights</a></li>
+								<li><a href="#">Dimapur Flight</a></li>
+								<li><a href="#">Agartala Flights</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>Top Hotels</h3>
+							<ul>
+								<li><a href="https://www.trivago.in/" target="_blank">Radisson Blu Hotel Guwahati</a></li>
+								<li><a href="https://www.trivago.in/" target="_blank">Vivanta Guwahati</a></li>
+								<li><a href="https://www.trivago.in/" target="_blank">POLO ORCHID RESORT CHERRAPUNJEE</a></li>
+								<li><a href="https://www.trivago.in/" target="_blank">Waii International Hotel</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>Interest</h3>
+							<ul>
+								<li><a href="#">Waterfall</a></li>
+								<li><a href="#">Family Travel</a></li>
+								<li><a href="#">Budget Travel</a></li>
+								<li><a href="#">Food &amp; Drink</a></li>
+								<li><a href="#">Solo trip</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>Best Places</h3>
+							<ul>
+								<li><a href="#">Gangtok</a></li>
+								<li><a href="#">Ziro</a></li>
+								<li><a href="#">Tea farm</a></li>
+								<li><a href="#">Siliguri</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+							<h3>Affordable</h3>
+							<ul>
+								<li><a href="#">Food &amp; Drink</a></li>
+								<li><a href="#">Fare Flights</a></li>
+								<li><a href="#">Hotels</a></li>
+								<li><a href="#">Fairy</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<p class="fh5co-social-icons">
+								<a href="#"><i class="icon-twitter2"></i></a>
+								<a href="#"><i class="icon-facebook2"></i></a>
+								<a href="#"><i class="icon-instagram"></i></a>
+								<a href="#"><i class="icon-dribbble2"></i></a>
+								<a href="#"><i class="icon-youtube"></i></a>
+							</p>
+							<p>Copyright Travel <a href="#"></a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i>  by <a href="#" target="_blank">Crystal Developers</a> <a href="https://unsplash.com/" target="_blank"></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	
+
+	</div>
+	<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+
+	<!-- jQuery -->
+
+
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/sticky.js"></script>
+
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Superfish -->
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Date Picker -->
+	<script src="js/bootstrap-datepicker.min.js"></script>
+	<!-- CS Select -->
+	<script src="js/classie.js"></script>
+	<script src="js/selectFx.js"></script>
+	
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
